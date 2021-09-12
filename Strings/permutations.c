@@ -29,7 +29,7 @@ void main()
 #include <stdio.h>
 void swap(char* x, char* y)
 {
-    int temp = *x;
+    char temp = *x;
     *x= *y;
     *y= temp;
 }

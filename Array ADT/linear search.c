@@ -21,7 +21,7 @@ void main()
     int key;
     printf("enter element which needs to be searched");
     scanf("%d",&key);
-    int t=search(arr,key);
+    int t=search(arr, key);
     if(t==-1)
         printf("not found");
     else
